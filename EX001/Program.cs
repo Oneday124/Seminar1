@@ -13,9 +13,4 @@ else
     Console.WriteLine("false");
 }
 
-// Квадрат числа
-
-Console.WriteLine("Введите число: ");
-double b = double.Parse(Console.ReadLine());
-Console.Write("Квадрат числа: " + Math.Pow(b, 2));
 
