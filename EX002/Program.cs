@@ -14,3 +14,26 @@ else
     Console.WriteLine("Меньшее число: " + y);
     Console.WriteLine("Большее число " + x);
 }
+
+//Вариант 2
+
+int numberA = new Random().Next(1, 10);
+Console.WriteLine("Число 1: " + numberA);
+int numberB = new Random().Next(1, 10);
+Console.WriteLine("Число 2: " + numberB);
+
+int max = 0;
+int min = 0;
+if(numberA < numberB)
+{
+    max = numberB;
+    min = numberA;
+}
+else
+{
+    max = numberA;
+    min = numberB;
+}
+
+Console.WriteLine("min = " + min);
+Console.WriteLine("max = " + max);
