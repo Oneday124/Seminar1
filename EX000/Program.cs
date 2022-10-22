@@ -2,5 +2,4 @@
 
 Console.Write("Веедите число: ");
 int userNumber = int.Parse(Console.ReadLine() ??"0");
-int square = userNumber * userNumber;
-System.Console.WriteLine($"Квадрат числа {userNumber} = {square}");
+System.Console.WriteLine($"Квадрат числа {userNumber} = {userNumber*userNumber}");
