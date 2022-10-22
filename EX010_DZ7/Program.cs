@@ -2,7 +2,7 @@
 
 int Random ()
 {
-    int number = new Random().Next(10, 99);
+    int number = new Random().Next(10, 100);
     return number;
 }
 int BigDigit (int number)
