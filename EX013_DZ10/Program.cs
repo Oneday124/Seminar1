@@ -1,7 +1,7 @@
 ﻿// Найти третью цифру числа или сообщить, что её нет
 
-int number = new Random().Next(1, 100);
-Console.WriteLine("Number: " + number);
+int number = new Random().Next(1, 1000);
+Console.WriteLine($"Number: {number}");
 if(number < 100)
 {
     Console.WriteLine("There is not third");
@@ -12,7 +12,7 @@ else
     {
         number = number / 10;
     }
-Console.WriteLine(number % 10);
+Console.WriteLine($"The third digit of the number = {number % 10}");
 }
 
 
