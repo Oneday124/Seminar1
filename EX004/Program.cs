@@ -1,29 +1,9 @@
 ﻿// Показать числа от -N до N
 
-Console.WriteLine("Введите число: ");
-int numberA = int.Parse(Console.ReadLine());
-Console.WriteLine("Введите число: ");
-int numberB = int.Parse(Console.ReadLine());
-
-int max = 0;
-int min = 0;
-
-if(numberA <= numberB)
+Console.Write("Введите число: ");
+int N = int.Parse(Console.ReadLine() !);
+int current = N * (-1);
+for(int i = N*(-1); i <= N; i++)
 {
-    max = numberB;
-    min = numberA;
-}
-else
-{
-    max = numberA;
-    min = numberB;
-}
-
-Console.WriteLine("min = " + min);
-Console.WriteLine("max = " + max);
-
-while(min -1 < max)
-{
-    Console.WriteLine(min);
-    min++;
+    Console.Write($"{i} ");
 }
