@@ -1,4 +1,10 @@
 ﻿// Дано число из отрезка [10, 99]. Показать наибольшую цифру числа
+
+int Random ()
+{
+    int number = new Random().Next(10, 99);
+    return number;
+}
 int BigDigit (int number)
 {
     int first_number = number / 10;
@@ -13,6 +19,6 @@ int BigDigit (int number)
         } 
 }
 
-int number = new Random().Next(10, 99);
+int number = Random();
 Console.WriteLine($"Число: {number}");
 Console.WriteLine($"Наибольшая цифра числа = {BigDigit(number)}");
