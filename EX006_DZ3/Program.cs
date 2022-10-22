@@ -1,11 +1,11 @@
 ﻿// Найти максимальное из трех чисел
 
 Console.WriteLine("Введите первое число: ");
-int first_number = int.Parse(Console.ReadLine() ?? "0");
+int first_number = int.Parse(Console.ReadLine() ??"0");
 Console.WriteLine("Введите второе число: ");
-int second_number = int.Parse(Console.ReadLine() ?? "0");
+int second_number = int.Parse(Console.ReadLine() ??"0");
 Console.WriteLine("Введите третье число: ");
-int third_number = int.Parse(Console.ReadLine() ?? "0");
+int third_number = int.Parse(Console.ReadLine() ??"0");
 int max = 0;
 
 if (first_number > second_number)
